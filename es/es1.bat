@@ -15,8 +15,10 @@ set /a s=0
 :sum
 if %n% GTR 0 (
     set /a s=%s% + %n%
+
     set /a n=%n% - 1
     goto sum
 )
 
 echo "La somma e': %s%"
+

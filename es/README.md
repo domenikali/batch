@@ -46,3 +46,19 @@ Scrivere uno script che, legge da input il numero inserito e rimanda all'eserciz
 ....
 
 se <=0 || > 5 termina con "errore"
+
+#### Es 6
+
+Scrivi uno script che, dato un nome inserito da input, crea una cartella con quel nome nella directory corrente
+
+#### Es 7
+
+Scrivi uno script che copia il contenuto della directory, inserita da utente, nella directory corrente
+
+#### Es 8
+
+scrivi uno script che copia il contentuo della direcory corrente in una directory "backup" in "documents"
+
+#### Es 9
+
+scrivi uno script che cancella il backup indicato da utente

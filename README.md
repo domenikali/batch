@@ -306,3 +306,66 @@ if "%scelta%"=="1" (
     goto menu
 )
 ```
+
+
+## Comandi Base 
+
+I comandi base sono i seguenti 
+
+### del
+Elimina un file specificato in path
+
+`del <file_path>`
+
+``` batch
+del il_mio_file.txt
+del ..\..\il_mio_file.txt
+```
+
+alcune utili flags
+
+`/s` echo il nome del file
+`/q` non richiede verifica
+`/f` forza l'eleminazione
+
+### mkdir
+Crea una cartella al percorso specificato
+
+`mkdir <file_path>`
+
+```batch
+mkdir cartella
+mkdir ..\..\cartella
+mkdir C:\Users\myUser\Desktop\cartella
+```
+
+
+### rmdir
+Elimina una cartella specificata dal path
+
+`rmdir <folder_path>`
+
+```batch
+mkdir cartella
+mkdir ..\..\cartella
+mkdir C:\Users\myUser\Desktop\cartella
+```
+
+Come per `del`
+
+## Variabili generali e di ambiente
+
+Alcune variabili sono definte `generali` quando sono utilizzabili sempre e definiscono determinati comportamenti spesso aggiornate da uno script o dal OS
+### Esempli
+
+`%ERRORLEVEL%` Errore di esecuzione numero
+`%DATE%	` Data corrente
+`%USERNAME%	` Username dello user loggato
+
+Altre variabili sono definte `di ambiente` quando sono definite dal OS ed hanno copiti speciali come tenere traccia dei path di aclune applicazioni
+### Esempli
+
+`OS` Nome del OS
+`TEMP` Percorso folder temporanea
+`JAVA_HOME` Path JDK Java
+
